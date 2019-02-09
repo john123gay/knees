@@ -1,7 +1,7 @@
 $("#buzzbutton").on("click", function() {
 
 
-    var queryURL = "http://69.120.124.59:5050/buzz";
+    var queryURL = "https://69.120.124.59:5050/buzz";
     
     $.ajax({
          url: queryURL,
